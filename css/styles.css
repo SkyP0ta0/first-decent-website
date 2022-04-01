@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Hurricane', cursive;
+  color: #141E27;
+  line-height: 2;
+}
+
+h2 {
+  text-decoration: underline;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-size: 2.5rem;
+  color: #203239;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #203239;
+}
+
+a {
+  color: #B4CFB0;
+}
+
+hr {
+  margin: 50px auto 50px auto;
+  border-style: dotted none none none;
+  border-width: 7px;
+  width: 5%;
+  border-color: #203239;
+}
+
+.content {
+  background-color: #EEEDDE;
+  position: relative;
+  padding-top: 90px;
+}
+
+.profile {
+  overflow-wrap: break-word;
+}
+
+
+.contact-me {
+  margin-bottom: 50px;
+}
+
+.bottom-container {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color:#EEEDDE;
+  background-color:#203239;
+
+}
+
+
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  width: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 200px;
+  width: 200px;
+}
+
+.my-picture {
+  width: 200px;
+  border-radius: 15%;
+  margin: 50px auto 30px auto;
+}
+
+.anime-img {
+  width: 130px;
+  float: right;
+  margin-left: 10px;
+}
+
+.right-h {
+  text-align: right;
+}
+
+.right {
+  text-align: right;
+}
+
+.skills-img {
+  width: 130px;
+  float: left;
+  margin-right: 30px;
+}
+
+/* .lich {
+  position: absolute;
+  right: 30px;
+  bottom: -900px;
+  width: 50px;
+} */
+.skill-row {
+  width: 30%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn {
+  background: #203239;
+  background-image: -webkit-linear-gradient(top, #203239, #9e9e9e);
+  background-image: -moz-linear-gradient(top, #203239, #9e9e9e);
+  background-image: -ms-linear-gradient(top, #203239, #9e9e9e);
+  background-image: -o-linear-gradient(top, #203239, #9e9e9e);
+  background-image: linear-gradient(to bottom, #203239, #9e9e9e);
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  text-shadow: 1px 1px 3px #203239;
+  -webkit-box-shadow: 0 1px 3px #000000;
+  -moz-box-shadow: 0 1px 3px #000000;
+  box-shadow: 0 1px 3px #000000;
+  font-family: Courier New;
+  color: #E0DDAA;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
